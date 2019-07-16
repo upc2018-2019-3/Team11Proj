@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC   
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+     
+     
+<struts>
+    <package name="liu" extends="struts-default">
+        <global-results>
+            <result name="succeed">/common/succeed.jsp</result>
+            <result name="msg">/common/msg.jsp</result>
+        </global-results>
+        
+        
+         <action name="upload" class="com.util.upload" method="upload">
+             <result name="success">/upload/upload_re.jsp</result>
+        </action>
+        
+        
+        
+        <action name="catelogAdd" class="catelogAction" method="catelogAdd">
+        </action>
+        <action name="catelogMana" class="catelogAction" method="catelogMana">
+            <result name="success">/admin/catelog/catelogMana.jsp</result>
+        </action>
+        <action name="catelogDel" class="catelogAction" method="catelogDel">
+        </action>
+        <action name="catelogPre" class="catelogAction" method="catelogPre">
+            <result name="success">/admin/catelog/catelogPre.jsp</result>
+        </action>
+        <action name="catelogEdit" class="catelogAction" method="catelogEdit">
+        </action>
+        <action name="catelogAll" class="catelogAction" method="catelogAll">
+            <result name="success">/admin/catelog/catelogAll.jsp</result>
+        </action>
+        
+        
+        
+        <action name="goodsAdd" class="goodsAction" method="goodsAdd">
+        </action>
+        <action name="goodsMana" class="goodsAction" method="goodsMana">
+            <result name="success">/admin/goods/goodsMana.jsp</result>
+        </action>
+        <action name="goodsDel" class="goodsAction" method="goodsDel">
+        </action>
+        <action name="goodsPre" class="goodsAction" method="goodsPre">
+            <result name="success">/admin/goods/goodsPre.jsp</result>
+        </action>
+        <action name="goodsEdit" class="goodsAction" method="goodsEdit">
+        </action>
+        <action name="goodsAll" class="goodsAction" method="goodsAll">
+            <result name="success">/admin/goods/goodsAll.jsp</result>
+        </action>
+        
+        
+        
+        
+        
+        <action name="rukuAdd" class="rukuAction" method="rukuAdd">
+        </action>
+        <action name="rukuMana" class="rukuAction" method="rukuMana">
+            <result name="success">/admin/ruku/rukuMana.jsp</result>
+        </action>
+        <action name="rukuDel" class="rukuAction" method="rukuDel">
+        </action>
+        <action name="rukuPre" class="rukuAction" method="rukuPre">
+            <result name="success">/admin/ruku/rukuPre.jsp</result>
+        </action>
+        <action name="rukuEdit" class="rukuAction" method="rukuEdit">
+        </action>
+        
+        
+        
+        
+        <action name="chukuAdd" class="chukuAction" method="chukuAdd">
+        </action>
+        <action name="chukuMana" class="chukuAction" method="chukuMana">
+            <result name="success">/admin/chuku/chukuMana.jsp</result>
+        </action>
+        <action name="chukuDel" class="chukuAction" method="chukuDel">
+        </action>
+        <action name="chukuRes" class="chukuAction" method="chukuRes">
+            <result name="success">/admin/chuku/chukuMana.jsp</result>
+        </action>
+        
+        
+        
+        
+        <action name="tongjiRes" class="tongjiAction" method="tongjiRes">
+            <result name="success">/admin/tongji/tongjiRes.jsp</result>
+        </action>
+        
+        
+        
+        
+        
+        
+        
+        <action name="baosunAdd" class="baosunAction" method="baosunAdd">
+        </action>
+        <action name="baosunMana" class="baosunAction" method="baosunMana">
+            <result name="success">/admin/baosun/baosunMana.jsp</result>
+        </action>
+        <action name="baosunDel" class="baosunAction" method="baosunDel">
+        </action>
+        <action name="baosunPre" class="baosunAction" method="baosunPre">
+            <result name="success">/admin/baosun/baosunPre.jsp</result>
+        </action>
+        <action name="baosunEdit" class="baosunAction" method="baosunEdit">
+        </action>
+        
+        
+        
+    </package>
+</struts>

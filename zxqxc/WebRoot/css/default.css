@@ -1,0 +1,108 @@
+td,th{font-size:9pt;}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	filter: DropShadow(Color=#ffffff, OffX=1, OffY=1, Positive=1);
+	color: #333333;
+}
+
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	filter: DropShadow(Color=#ffffff, OffX=1, OffY=1, Positive=1);
+	color: #FF0000;
+}
+form{
+	margin:0;
+}
+
+.image_button{
+	cursor:hand;
+}
+.navPoint {COLOR: 5E95C3; CURSOR: hand; FONT-FAMILY: Webdings; FONT-SIZE: 9pt}
+.line_bg{
+	background-color:#2894FF;
+}
+.line_right{
+	/* border-right:1px solid #FF5A00; */
+}
+.bigTitle{
+	color: #Ff6600;
+	font-size:14px;
+	font-weight: bold;
+	background-color:#FAFFE8;
+	border:1px solid #DDDDDD;
+}
+
+<!-- 数据表格数据标题样式 -->
+th{
+	color: #Ff6600;
+	background-color:#FAFFE8;
+	font-weight: bold;
+}
+.fieldName{
+	color: #Ff6600;
+	background-color:#FAFFE8;
+	font-weight: bold;
+	text-align:right;
+}
+.fieldName2{
+	color: #Ff6600;
+	font-weight: bold;
+}
+
+<!-- 数据表格边框颜色 -->
+.tableData{
+	background-color:#DDDDDD;
+}
+
+.inputdate
+{
+	border:1px solid #7287c6;
+	text-align: center;
+	font-size: 12px;
+	font-style: normal;
+	height: 20px;
+}
+
+.inputText{
+	color:#707070;
+	border:1px solid #D4D4D4;
+	height:20px;
+}
+
+.inputText_focus{
+	color:#707070;
+	border:1px solid #666666;
+	height:20px;
+}
+
+.button1
+{
+	BACKGROUND-COLOR:#e0e0d5;
+	font-size: 9pt;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: ridge;
+	border-right-style: ridge;
+	border-bottom-style: ridge;
+	border-left-style: ridge;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	height: 20px;
+}
+
+
